@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Play and Enjoy!!</h1>
+    <div class="keys">
+      <div data-key="65" class="drum-set">
+        <kbd>A</kbd>
+        <span class="sound">clap</span>
+      </div>
+
+      <div data-key="83" class="drum-set">
+        <kbd>S</kbd>
+        <span class="sound">Trumpet</span>
+      </div>
+
+      <div data-key="68" class="drum-set">
+        <kbd>D</kbd>
+        <span class="sound">Tink</span>
+      </div>
+
+      <div data-key="70" class="drum-set">
+        <kbd>F</kbd>
+        <span class="sound">Mountain</span>
+      </div>
+
+      <div data-key="71" class="drum-set">
+        <kbd>G</kbd>
+        <span class="sound">Forest</span>
+      </div>
+
+      <div data-key="75" class="drum-set">
+        <kbd>K</kbd>
+        <span class="sound">Snow</span>
+      </div>
+
+      <div data-key="76" class="drum-set">
+        <kbd>L</kbd>
+        <span class="sound">Sizzling</span>
+      </div>
+    </div>
+
+    <audio src="sounds/horror.wav" data-key="65"></audio>
+    <audio src="sounds/horrortwo.wav" data-key="83"></audio>
+    <audio src="sounds/horrorthree.wav" data-key="68"></audio>
+    <audio src="sounds/horrorfour.wav" data-key="70"></audio>
+    <audio src="sounds/horrorfive.wav" data-key="71"></audio>
+    <audio src="sounds/horrorsix.wav" data-key="75"></audio>
+    <audio src="sounds/horrorseven.wav" data-key="76"></audio>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
